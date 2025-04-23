@@ -36,7 +36,6 @@
 
 // console.log(hello())
 
-
 /* annoneymouse function */
 
 // const hello(){
@@ -46,3 +45,13 @@
 // }
 
 // console.log(hello())
+
+// event handler
+
+// const button = document.getElementById("button");
+
+// function hello() {
+//   console.log("button clicked");
+// }
+
+// button.addEventListener("click", hello);
