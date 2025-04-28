@@ -272,3 +272,19 @@
 // result.update=update
 
 // console.log(result);
+
+/* rest operator */
+// const sum = (text, ...rest) => {
+//   const result = rest.reduce((total, currentValue) => total + currentValue, 0);
+//   console.log(`${text} ${result}`);
+// };
+// sum("the sum is:", 1, 2, 3, 4, 5);
+
+/* js truthy or false value */
+
+/* falsy value */
+// false, 0, undefined, null, "", NaN;
+
+
+/* truthy value */
+// ei 6 ta badhe baki sob truthy value 
