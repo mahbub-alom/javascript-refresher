@@ -285,6 +285,21 @@
 /* falsy value */
 // false, 0, undefined, null, "", NaN;
 
-
 /* truthy value */
-// ei 6 ta badhe baki sob truthy value 
+// ei 6 ta badhe baki sob truthy value
+
+/* destucture */
+
+// const user = {
+//   name: "towsif",
+//   age: 21,
+//   education: {
+//     degree: "engineer",
+//     college: {
+//       cName: "munshiganj polytechnic institute",
+//     },
+//   },
+// };
+
+// const { name, age, education: { college: { cName } } = {} } = user;
+// console.log(name, age, cName);
