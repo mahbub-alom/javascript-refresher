@@ -209,3 +209,66 @@
 // for (numb in number) {
 //   console.log(numb);
 // }
+
+/* for in object data take */
+// const person = {
+//   name: "towsif",
+//   DofB: 2003,
+//   dis: "lakshmipur",
+// };
+
+// for (info in person) {
+//   console.log(info);
+//   console.log(person[info]);
+// }
+
+/* object */
+
+/* keys, value , entries */
+// const person = {
+//   name: "towsif",
+//   DofB: 2003,
+//   dis: "lakshmipur",
+// };
+
+// console.log(Object.keys(person))
+// console.log(Object.values(person))
+// console.log(Object.entries(person))
+
+/* dynamic value add in object */
+// const father = "saif ullah";
+
+// const person = {
+//   name: "towsif",
+//   DofB: 2003,
+//   dis: "lakshmipur",
+//   father
+// };
+
+// console.log(person);
+
+/* spread & rest operator  */
+
+/* spread in array */
+// const fruits = ["apple", "mango", "orange", "banana", "pineapple"];
+
+// const result =[...fruits]
+// result.push("coconut","tomato")
+// console.log(fruits)
+// console.log(result)
+
+/* spread in object */
+// const language = {
+//   name: "python",
+//   year: 1990,
+//   creator: "elon musk",
+// };
+// const result = {
+//   ...language,
+// };
+
+// const update=2003
+
+// result.update=update
+
+// console.log(result);
