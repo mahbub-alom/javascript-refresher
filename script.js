@@ -55,3 +55,157 @@
 // }
 
 // button.addEventListener("click", hello);
+
+// array methods\
+
+/* find */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.find((f) => f === "mango");
+// console.log(result);
+
+/* findindex */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.findIndex((f) => f === "mango");
+// console.log(result);
+
+/* filter */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.filter((f) => f === "mango"|| f==="tomato");
+// console.log(result);
+
+/* slice */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.slice(3,4);
+// console.log(fruits);
+// console.log(result);
+
+/* splice */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.splice(1,3,"kola","anar");
+// console.log(fruits);
+// console.log(result);
+
+/* concat */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.concat("new item");
+// console.log(fruits);
+// console.log(result);
+
+/* push */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   " banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.push("new item");
+// console.log(fruits);
+// console.log(result);
+
+/* map */
+// const fruits = [
+//   "mango",
+//   "orange",
+//   "tomato",
+//   "watermelon",
+//   "lichi",
+//   "banana",
+//   "jackfruits",
+// ];
+
+// const result = fruits.map((f) => {
+//   if (f === "banana") {
+//     return "kola";
+//   }
+//   else{
+//     return "lal"
+//   }
+// });
+
+// console.log(result);
+// console.log(fruits);
+
+/* reduce */
+// const numbers = [1, 2, 3, 4, 5];
+
+// const result = numbers.reduce((total, currentValue, currentIndex, arr) => {
+//   console.log("total", total);
+//   console.log("currentValue", currentValue);
+//   console.log("index", currentIndex);
+//   console.log("arr", arr);
+//   return total + currentValue;
+// }, 0);
+
+// console.log(result);
+
+/* for in loop */
+
+/* for of arrays take value*/
+// const number = [1, 2, 3, 4, 5];
+// for (num of number) {
+//   console.log(num);
+// }
+
+/* for in arrays take index */
+// const number = [1, 2, 3, 4, 5];
+// for (numb in number) {
+//   console.log(numb);
+// }
