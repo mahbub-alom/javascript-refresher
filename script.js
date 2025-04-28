@@ -303,3 +303,9 @@
 
 // const { name, age, education: { college: { cName } } = {} } = user;
 // console.log(name, age, cName);
+
+/* Nullish coalescing operator (??) Javascript Short Circuiting Operators */
+// const lang = "hello";
+// console.log(lang ?? "js"); //if left side is null or undefined then render right side value. otherwise render variable value;
+// console.log(lang || "python"); //if left side is any falsy value then render right side value, otherwise render variable value;
+// console.log(lang && "java"); //if left side is truthy then render right side value.otherwise render variable value;
